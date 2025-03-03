@@ -7,8 +7,9 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build:prod1": "ng build --configuration production --output-path docs --base-href / && cp src/CNAME docs/CNAME",
-    "build:prod": "ng build --configuration production --output-path docs --base-href /cvalley/"
+    "build:prod22": "ng build --configuration production --output-path docs --base-href / && cp src/CNAME docs/CNAME",
+    "build:prod1ref": "ng build --configuration production --output-path docs --base-href /cvalley/",
+    "build:prod": "ng build --configuration production --output-path docs --base-href /cvalley/ && cp src/CNAME docs/CNAME"
 
   },
   "private": true,
