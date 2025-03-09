@@ -8,7 +8,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent, data: { title: 'Home' } }, // Default route
   { path: 'home', component: HomeComponent, data: { title: 'Home' } },
   { path: 'about', component: AboutComponent, data: { title: 'About Us - My App' } },
-  // { path: '**', redirectTo: '', pathMatch: 'full' } // Redirect unknown paths to home
+  { path: '**', redirectTo: '', pathMatch: 'full' } // Redirect unknown paths to home
 ];
 
 @NgModule({
