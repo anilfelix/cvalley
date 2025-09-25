@@ -33,3 +33,5 @@ git acm "build prod"
 git merge-into prod; git push origin prod
 
 
+then go to internet and check the webpage, it should be refreshed in less than a minute
+https://chandanvalley.in/
